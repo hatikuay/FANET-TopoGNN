@@ -23,3 +23,43 @@ To install required dependencies:
 ```bash
 pip install -r requirements.txt
 
+Sample requirements.txt:
+
+numpy
+scipy
+networkx
+gudhi
+persim
+h5py
+tqdm
+matplotlib
+torch
+
+⚙️ Usage
+1. Dataset Generation
+Run the simulator to generate synthetic UAV topology data:
+
+python fanet_simulator.py
+
+his will produce a dataset file named fanet_topo_dataset.h5, which contains positional and topological snapshot data.
+
+2. Model Training and Evaluation
+Open and run main.ipynb in Jupyter Notebook or another compatible environment. It includes:
+
+Loading the .h5 dataset
+
+Training a GNN on persistence images
+
+Evaluation metrics and result visualization
+
+📚 Academic Context
+This repository was prepared exclusively for academic purposes by:
+
+Dr. Ercan Erkalkan
+Department of Computer Engineering
+Marmara University, Istanbul, Turkey
+📧 ercan.erkalkan@marmara.edu.tr
+
+This work is part of ongoing research in wireless UAV networks, persistent homology, and geometric deep learning.
+
+If you use this code or dataset in your research, please cite appropriately or include an acknowledgment.
