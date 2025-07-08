@@ -8,13 +8,14 @@ The aim of this project is to analyze dynamic UAV networks in FANET environments
 
 ## 📁 Repository Structure
 
-FANET-TopoGNN/
+```FANET-TopoGNN/
 ├── fanet_simulator.py # Data simulation and persistence image extraction
 ├── main.ipynb # Model training, evaluation, and visualization
 ├── best_model.pth # Pretrained PyTorch model
 ├── requirements.txt # Required Python packages
 ├── README.md # Project documentation (this file)
 └── .gitattributes # Git LFS settings (optional)
+```
 
 ## 📦 Dependencies
 
@@ -51,7 +52,7 @@ Training a GNN on persistence images
 
 Evaluation metrics and result visualization
 
-📚 Academic Context
+## 📚 Academic Context
 This repository was prepared exclusively for academic purposes by:
 
 Dr. Ercan Erkalkan
