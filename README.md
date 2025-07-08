@@ -20,7 +20,6 @@ FANET-TopoGNN/
 
 To install required dependencies:
 
-```bash
 pip install -r requirements.txt
 
 Sample requirements.txt:
